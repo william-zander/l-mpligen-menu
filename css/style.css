@@ -24,3 +24,7 @@ nav ul{
   display:flex;
    gap: 20px; 
 }
+footer{
+  padding: 300px;
+  text-align: center;
+}
