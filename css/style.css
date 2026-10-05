@@ -33,11 +33,20 @@ footer{
   padding: 30px;
   text-align: center;
 }
-nav ul{
+Nav li{
   list-style-type: none;
 }
-
 .Kontakt_Img{
   height: 200px;
   width: 175px;
+  justify-content: end;
+}
+
+#year{
+  padding: 20px;
+  color: red;
+  font-size: 26px;;
+}
+.om-oss-Text{
+  
 }

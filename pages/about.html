@@ -12,20 +12,18 @@
             om oss
         </h1>
 
-       
     </header>
 
-    <main>
+    <main class="om-oss-Text">
         <article>
-                    
-        </article>
-
-        <article>
-
+            Hejsan jag är en änsam person som har gjort dena hemsidan för att trana på att använda css och flex så deta
+            är inte en väldigt seriös hemsida
         </article>
     </main>
 
     <footer>
+        <h2>senast upptataterat</h2>
+        <div id="year"></div>
         <nav>
             <ul>
                 <li><a href="../index.html">start</a></li>
@@ -36,6 +34,11 @@
 
     </footer>
 
+    <script>
+        let d = new Date();
+        document.getElementById("year").innerHTML = d.getFullYear();
+        console.log(d.getFullYear());
+    </script>
 </body>
 
 </html>

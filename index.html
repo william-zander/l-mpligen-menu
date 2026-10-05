@@ -57,12 +57,12 @@
     <h2>
         en lista på olika saker
     </h2>
-    <ul>
+    <ol>
         <li>banan</li>
         <li>frukt</li>
         <li>skål</li>
         <li>kniv</li>
-    </ul>
+    </ol>
     <img class="normalImages" src="img/stadINatten.jpg" alt="en stad under två svarta hål" width="650" height="500">
 
     <a href="https://sv.wikipedia.org/wiki/Banan">
@@ -79,6 +79,8 @@
     </main>
 
     <footer>
+        <h2>senast upptataterat</h2>
+        <div id="year"></div>
         <nav>
             <ul>
                 <li><a href="index.html">start</a></li>
@@ -87,7 +89,11 @@
             </ul>
         </nav>
     </footer>
-
+    <script>
+        let d = new Date();
+        document.getElementById("year").innerHTML = d.getFullYear();
+        console.log(d.getFullYear());
+    </script>
 </body>
 
 </html>

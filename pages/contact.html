@@ -27,6 +27,8 @@
     </main>
 
     <footer>
+        <h2>senast upptataterat</h2>
+        <div id="year"></div>
         <nav>
             <ul>
                 <li><a href="../index.html">start</a></li>
@@ -34,7 +36,11 @@
                 <li><a href="contact.html">kontakter</a></li>
             </ul>
         </nav>
-
+        <script>
+            let d = new Date();
+            document.getElementById("year").innerHTML = d.getFullYear();
+            console.log(d.getFullYear());
+        </script>
     </footer>
 
 </body>
