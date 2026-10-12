@@ -25,10 +25,14 @@ body {
   width: 500px;
 }
 
-h1,h2,h3 {
-  color:crimson
+h2,h3 {
+  color:crimson;
+  font-size: x-large;
 }
-
+h1{
+  color:crimson;
+  font-size: bold;
+}
 footer{
   padding: 30px;
   text-align: center;
@@ -48,5 +52,13 @@ Nav li{
   font-size: 26px;;
 }
 .om-oss-Text{
+  color:red;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+
+}
+
+.Lista_start{
+  text-align: center;
   
 }
