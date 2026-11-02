@@ -1,23 +1,25 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
+
 img {
   border: solid 3px black;
 }
 
-ul{
+ul {
   display: flex;
   border: 1px solid red;
   justify-content: center;
   gap: 20px
 }
 
-article{
-  color:black;
+article {
+  color: black;
 }
+
 body {
-    background-color: sandybrown;
+  background-color: sandybrown;
 }
 
 .normalImages {
@@ -25,55 +27,83 @@ body {
   width: 500px;
 }
 
-h2,h3 {
-  color:crimson;
+h2,
+h3 {
+  color: crimson;
   font-size: x-large;
 }
-h1{
-  color:crimson;
+
+h1 {
+  color: crimson;
   font-size: bold;
 }
-footer{
+
+footer {
   padding: 30px;
   text-align: center;
 }
-Nav li{
+
+Nav li {
   list-style-type: none;
 }
-.Kontakt_Img{
+
+.Kontakt_Img {
   height: 200px;
   width: 175px;
   justify-content: end;
 }
 
-#year{
+#year {
   padding: 20px;
   color: red;
-  font-size: 26px;;
+  font-size: 26px;
+  ;
 }
-.om-oss-Text{
-  color:red;
+
+.om-oss-Text {
+  color: red;
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
 
 }
 
-.Lista_start{
+.Lista_start {
   text-align: center;
-  
+
 }
+
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    max-width: 600px;
+  border: 1px red solid;
+  gap: 0.75rem;
+  max-width: 600px;
+  justify-content: center;
+
 }
-input, select, textarea {
-    width: 100%;
-    padding: 0.6rem;
-    font: inherit;
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font: inherit;
 }
+
 form button {
-    align-self: flex-start;
-    padding: 0.6rem 1.2rem;
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.form-tital{
+ padding: 10px;
 }
