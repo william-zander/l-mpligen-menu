@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box; 
 }
 
 img {
@@ -106,4 +107,28 @@ form button {
 
 .form-tital{
  padding: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+.card_2 { flex: 1 1 220px;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+.card_1{flex: 1 1 10px;
+ padding: 1rem;
+ border: 1px solid #888;
+}
+.card_4{
+  -ms-flex-item-align: center;
+  padding: 1rem;
+  border: 1px solid #888;
+}
+.produkt_img{
+  height: 100px;
+  width: 100px;
 }
